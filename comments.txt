@@ -1,0 +1,136 @@
+do you want to learn python from me with a lot of interactive quizzes, and exercises? here is my project-based python learning course: <a href="<url>
+thank you for your efforts. as a self-taught learner who had no background in cs until a year ago, videos such as yours are what's helping me believe i can succeed in a new career field.
+wow! you put in a great deal of effort into these videos! thank you so much!<br><br>please, please give us some exercises or problems we can solve on graphs: directed, undirected and weighted types. <br><br>i&#39;ve had so much fun working on the previous exercises in this series.
+hi prof, i hope you are very well.<br>we all hope that you consider making other videos about graph and its implementation (ex: weighted graph, graph using adjacancy matrix, ...)<br>and thank you for all your effort, i wish you a great day.
+absolutely fantastic series big thumb&#39;s up sir.<br>hopefully make a playlist of algorithms as well
+after completion of data structures sir please dont forget to make videos on algorithms using python because this is really rare to find someone ...your work is awesome please keep going ..we truly rely on you.
+thank you for providing such useful content for non-cs background learners. i want to suggest one edit in a code that is in the get_path() using for loop for appending p from new_paths to paths(list) can't we directly use paths = paths+new_paths and then return paths it might decrease the time complexity as there will be addition operation to list instead of nested for loops in get_path function reducing the time complexity.
+hello, this series has been really helpful in my coding preparation, especially for understanding how to implement different data structures with python. could you please upload more videos on graph and also exercises related to it? your exercises are really amazing:)
+sir, i just now completed watching your complete "data structure" videos using python. i am from ece background and now i wanna get into it, but i couldn't understand what data structure is and i am a python programmer so, i was searching for data structure videos using python, but i couldn't find any so i watched lots of ds videos in other programming languages , even though i couldn't get the concepts clearly. then i found your channel and finally my doubts got clarified. and within few days, i am attending my technical round (round 2) in a very good company. so, thank you soo much sir and i also request to make a playlist on "algorithms" using python.
+sir i&#39;m new in your youtube channel and found your videos really helpful and informative...<br>but sir i wanna a request to you that is i&#39;m so much interested in competitive programming and solving algorithms so can you plz make a video on that it will be really helpful if you do<br>btw thanks for this awesome videos :)
+very helpful sir. i was wondering if you would come up with more videos and exercises related to graph theory and its implementation.
+what a great tutorial!! thanks a lot for another excellent video. i've subscribed to your channel due to the quality of the content and for creating such great visualisations to help us understand these topics. thanks for sharing.
+hi.. this is amazing.. thank you for making these videos.. i just wanted to crosscheck something with you. in the get_shortest_path() method, will it be a good idea to call the get_paths() method, sort the returned list, and print the paths that have the least length?.. or will it have any downside to it, which i might be missing..
+sir, please make a playlist on algorithms with python.
+i was hoping for the exercise! anyways, thank you for all your efforts, learnt a lot from you and specially those exercises, thank you sir!
+this playlist helped me understand dsa more deeply. thanks for making it look more easy.
+hi, for the shortest path, can we just call get_paths(start, end) and return the one with the shortest length among those?
+this is the only video that i had to watch 2nd time in order to understand. but it is because of the complexity of graph and my friends tell me that even if you get it in 2nd try, the video maker has done a great job. thanks daval, your tutorials are the best.
+excellent tutorial! good explanation very easy to understand! thanks for creating this.
+one doubt sir because i am absolutely a beginner in this. why we are creating our data in tuples first and then migrating to a dictionary. why can't we directly declare our values in a dictionary?
+sir your series is great and you are doing such a good work for students like us :) god bless you immensely.
+hi, nice video...do we really require "if sp:" condition to find shortest path? i tried without using that condition and i get the correct output
+sir your explanation is damn good..we need algorithm also like how to use greedy ,dynamic programming, divide and conquer, branch and bound ,bit manipulation etc..pleaseeeee sirrr
+this was one of the best dsa series i have seen! it has helped me a lot!!
+i've implemented this long ago but did not know this was called graph. thanks for deep insights.
+hey, it is a great tutorial. but i'm wondering why necessarily we have to create a method to find the shortest path when we can easily find it using an instance variable. for example, we could create self.shortest_path and set it to none. then in the get_paths method, we could update it by simply finding the smallest length of the list inside the paths list. this way it would return both the paths like mumbai-paris_newyork and mumbai-dubai-newyork because their length is three. also, it would make the coding a lot easier as well.
+pls continue with weighted graphs , dfs and bfs in graphs
+thank you, awaiting for graphs.....and waiting for algos.....and also you are the best dsa teacher out there
+hi, just wanted to know that for getting the shortest path, can i just call get_path method and return the list with minimum length. and great videos very nicely explained.
+line 5 to 10 can be reduced as below :) <br><br> for start, end in self.edges:<br> self.graph_dict.setdefault(start, []).append(end)<br> print(self.graph_dict)
+thank you for your efforts. great help!
+hello sir, can you please create a video developing of project using only dsa ?
+wow...looks interesting. i must be related to pert -cpm methods of scheduling [from mathematics/operations research]<br>similarly, i found tree data structure analogous to decision tree in ml
+love from india<br>you made data structures like a elementary school subject. i feel so comfortable when you are teaching it sir
+hi<br>grate video. i think the code to getpaths needs one small change to accommodate paths between &#39;newyork&#39; and &#39;torento&#39;.<br>path=path+[start]
+<br> # if start not in self.graphs_dict:
+<br> # return []
+<br> if start==end:
+<br> return [path]
+<br> paths=[]
+<br> if start in self.graphs_dict:
+<br> for node in self.graphs_dict[start]:
+<br> if node not in path:
+<br> new_paths=self.paths(node,end,path)
+<br> for i in new_paths:
+<br> paths.append(i)
+<br> return paths<br><br>please correct me if am wrong.<br>thanks in advance
+what a wonderful and patience video!!!!!! thanks again!!!!
+hello sir loved your video, please let me know when the series on weighted graph and algo will come
+if you have already a method called &quot;get_paths&quot; for getting all possible routes, then you can get the shortest_path by reusing that same method too. this will also show the all possible shortest routes rather than showing just one. <br>&quot;shortest path between mumbai and new york: [[&#39;mumbai&#39;, &#39;paris&#39;, &#39;new york&#39;], [&#39;mumbai&#39;, &#39;dubai&#39;, &#39;new york&#39;]]&quot;<br><br> def get_shortest_path(self, start, end):
+<br> total_paths = self.get_paths(start,end)
+<br> shortest_paths = []
+<br> for i in total_paths:
+<br> if len(i) == len(min(total_paths)):
+<br> shortest_paths.append(i)
+<br>
+<br> return shortest_paths<br><br><br>also a big thank you @codebasics for sharing all your knowledge and helping us.
+can you make a java algorithm playlist? java is my first language that's why it's easier for me understand.
+sir please make a video on artificial intelligence coding.........<br><br>only for u i have understood machine learning from ur video...
+amazing explanation, thank you very much.
+please make a detailed video for all the concepts of graph<br><br>thanks a lot, sir this help me alot
+you are doing a great job. thanks so much
+superb....i have learnt all data structures from your playlist. your videos are interesting and attractive.<br>thank you so so much <br>love from andhra pradesh...
+how about this, please provide feedback on time complexity of this solution: def shortest_path(self, all_paths):<br> d = {}<br> for i in all_paths:<br> if len(i) in d:<br> d[len(i)].append(i)<br> else:<br> d[len(i)] = [i]<br> return d[min(d.keys())]
+love this playlist. keep continuing this!. thank you
+why "path = path + [start]" and "path += [start]" are not same?
+hi i have an issue at time 11.41min of the video as i am unable to run the code on my code editor which is visual studio code. i end up getting:<br><br>valueerror: too many values to unpack (expected 2)
+can you make graph dfs & bfs algorithms also?
+that was helpful! thank you!
+great video as usual,thanks
+thanku sir keep uploading such videos ....loved your effort
+to prevent people from spending 30 mins troubleshooting like me, this is a key difference in the get_paths() method and get_shortest_path() method:<br><br>get_paths():<br> if start == end:
+<br> return [path]<br><br>get_shortest_path():<br> if start == end:
+<br> return path<br><br>get_paths() returns it&#39;s path variable converted to list form, which then allows it to build onto the previous list (because we&#39;re adding additional paths (lists) to eachother). not the case in get_shortest_path() which is replacing the existing path with a new one, if the new one is shorter than the others. <br><br>spent a while trying to figure out why it was returning [[&#39;mumbai&#39;,&#39;paris&#39;,&#39;dubai&#39;,&#39;new york&#39;]] as the shortest path only to realize it was a list of lists, which had a len==1
+finally, i can say i know dsa ..........<br>thank you sir for such a good explanation
+sir, please complete this playlist.
+sir please make all further videos related to the graph
+great video. thanks!
+more graph videos please
+your efforts never waste... alwayzzz will give thumbs up....
+thank you for breaking it all down clearly
+i understand everything except this part:<br>if sp:
+<br> if shortest_path is none or len(sp) &lt; len(shortest_path):
+<br> shortest_path = sp<br><br>can someone please explain me why is he checking if the length of sp is less than len(shortest_path).
+awesome tutorial!<br><br>question: since function get_path already returns an array of paths, couldn&#39;t this function be used with a loop and return a tuple with the least size? i tried but didn&#39;t work, although it still seems like a legitimate approach.
+tuturiols are awesome but i am still getting strugle hard :(. but i will try more and more.
+hi dhaval, i am wondering if it is possible for you to make a breath first search video for graph. i watched many videos on this but they don't explain as well as you.
+have a look to my code, i tried to implement it before seeing yours, then it worked then checked yours and found it hard to understand haha :<br> def get_paths(self, start, end, path=[ ]):
+<br> path = path + [start]
+<br> if start == end:
+<br> return [path]
+<br> if start not in self.dict_graph:
+<br> return [ ]
+<br> paths = [ ]
+<br> for node in self.dict_graph[start]:
+<br> paths += self.get_paths(node, end, path)
+<br> return paths<br>i think mine looks clear ...
+nicely explained.
+can anyone please explain me how shortest_path is working out here ? unable to understand that
+waiting for more videos on graphs
+sir when will you complete this series of graph ?
+hey nice video buddy, thank you very much for the video!
+is it ok if we get shortest path using getpaths method. like after getting list of all paths, can i take a list which is having lesser cities
+sir, please upload next videos of graphs,,,
+why path = path + [start] <br>please explain
+sir how many videos will be there in this series!??
+when will we see more videos on graphs?
+i need one help from u sir, in this code i need to get all the shortest path from source to destination
+thx for tutorial and are you going to add new videos about graph ?
+love your video and waiting for more
+thanks for tutorial!
+maaan !!! recursion is a hard concept to wrap your head around. please suggest some source to practice this skill.<br>thank you :&gt;
+nice explanation
+can anyone tell me the software sir used for compiling the code and debugging it? plzs ,tthanks
+please make some more videos on graph.
+sir, please make more videos on graph is video not clear as much
+please reply to me if you have made more videos on graph.<br>i didn&#39;t find them
+thanks for the clear video
+hey dhaval, i hope your health's great now. great vid, could've done with a little more theory though. cheers!
+whats the need of creating paths when it gives the same thing as in new_paths?
+missed the excericse for this video :( waiting for future videos on graphs
+this is good.thanks.
+<a href="<url> mumbai --&gt; boston ---&gt; hartford ---&gt; new york should be 5300, not 5120. correct?
+very nice
+can graph and tree can made without class
+sir algorithm on python plz sir
+you are great
+can you suggest me laptop confirmation for learning data analytics....
+which ide?
+sir plz respond on facebook message i had send an error related query i am getting in pandas
+its not making anysense when you make the codition node not in path part > i think you are trying to catch the case when there are bidirectional travel to the same node .. but its not the case here , with all due respect but i think you dont understand the solution fully to it.
+
+thanks
+not useful ..... you are emphasizing your style of code which you can't explain,.......it looks like you mugged up code and giving video representation... but hats off to your hash table data structure.....it blow my mind
+pleasw upload vido frequntly
+this dude be like: graaf
